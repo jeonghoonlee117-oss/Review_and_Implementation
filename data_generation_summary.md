@@ -257,7 +257,7 @@ $$f(\mathbf{x}) = \sum_{k=1}^{2} \pi_k \, \phi_2(\mathbf{x}_N; \boldsymbol{\mu}_
 
 각 구성요소는 다음과 같다.
 
-$$\phi_2(\mathbf{x}_N; \boldsymbol{\mu}, \boldsymbol{\Sigma}) = \frac{1}{2\pi |\boldsymbol{\Sigma}|^{1/2}} \exp\left\{ -\frac{1}{2} (\mathbf{x}_N - \boldsymbol{\mu})^\top \boldsymbol{\Sigma}^{-1} (\mathbf{x}_N - \boldsymbol{\mu}) \right\}$$
+$$\phi_2(\mathbf{x}_N; \boldsymbol{\mu}, \boldsymbol{\Sigma}) = \frac{1}{2\pi |\boldsymbol{\Sigma}|^{1/2}} \exp\left\lbrace -\frac{1}{2} (\mathbf{x}_N - \boldsymbol{\mu})^\top \boldsymbol{\Sigma}^{-1} (\mathbf{x}_N - \boldsymbol{\mu}) \right\rbrace$$
 
 $$\text{Pois}(x_P; \lambda) = \frac{\lambda^{x_P} e^{-\lambda}}{x_P!}, \quad x_P = 0, 1, 2, \ldots$$
 
